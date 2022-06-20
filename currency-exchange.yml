@@ -3,3 +3,7 @@ spring:
     url: jdbc:mysql://127.0.0.1:6666/testdb?allowPublicKeyRetrieval=true&useSSL=false
     username: root
     password: test1234
+  security:
+    user:
+      name: admin
+      password: $2a$10$QpA9JjOQiciPKokmwlxEYOPtZLIHfTFECvDeL8in.ZGWVUY24Cx/a  
