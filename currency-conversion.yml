@@ -1,0 +1,6 @@
+com:
+  gab:
+    basePath: http://localhost:8000
+    currencyExchangePath: /currency-exchange/from/{from}/to/{to}
+    username: admin
+    password: test1234
