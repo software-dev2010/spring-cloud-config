@@ -6,7 +6,8 @@ spring:
       username: gigi
       password: test1234
   datasource:
-    url: jdbc:mysql://127.0.0.1:6666/testdb?allowPublicKeyRetrieval=true&useSSL=false
+#    url: jdbc:mysql://127.0.0.1:6666/testdb?allowPublicKeyRetrieval=true&useSSL=false
+    url: jdbc:mysql://docker-mysql:3306/testdb
     username: root
     password: test1234
   security:
